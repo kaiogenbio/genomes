@@ -16,42 +16,39 @@ Database Collaboration, which are available in NCBI's GenBank database, as well
 as the subset of those submissions that are included in NCBI's RefSeq Genomes 
 project. 
 
-Available by anonymous FTP at:
-     https://ftp.ncbi.nlm.nih.gov/genomes/
+Available by anonymous FTP at: https://ftp.ncbi.nlm.nih.gov/genomes/
 
 Please refer to README files and the FTP FAQ for additional information:
      https://www.ncbi.nlm.nih.gov/genome/doc/ftpfaq/
 
-Subscribe to the genomes-announce mail list to be informed of changes to the
-NCBI genomes FTP site:
-     https://www.ncbi.nlm.nih.gov/mailman/listinfo/genomes-announce
+# Directory structure
 
 Genome sequence and annotation data is provided in three directories:
 
-1) all:   content is the union of GenBank and RefSeq assemblies. There are 
-            four subdirectories:
-            GCA and GCF: named for the accession prefix (GCA or GCF) and these 
-            directories contain another three levels of directories named for 
-            digits 1-3, 4-6 & 7-9 of the assembly accession. The next level is 
-            the data directories for individual assembly versions. Only data 
-            directories for "latest" assemblies are refreshed when annotation is
-            updated or when software updates are released, so new file formats 
-            or improvements to existing formats are not available for 
-            non-latest assemblies.
-            annotation_releases: contains the products of the NCBI Eukaryotic 
-            Genome Annotation Pipeline (see below). The data are organized first
-            by taxonomy ID and then by annotation release ID. It is expected 
-            that many users will prefer to access the annotation release data 
-            using the paths under the "refseq" directory that use the organism 
-            name (see below). 
-            pilot: contains annotations produced by NCBI's RefSeq project for 
-            GenBank assemblies that are not incorporated into the main RefSeq 
-            genomes dataset. These data are provided as a pilot project to 
-            explore data models and annotation processes to support annotation 
-            on multiple assemblies for a species. The provided data structure 
-            matches that found under annotation_releases for NCBI EGAP 
-            annotations.
-2) genbank: content includes primary submissions of assembled genome sequence 
+1. **`all`**. content is the union of GenBank and RefSeq assemblies. There are 
+four subdirectories:
+    1. `GCA` and `GCF`: named for the accession prefix (GCA or GCF) and these 
+       directories contain another three levels of directories named for 
+       digits 1-3, 4-6 & 7-9 of the assembly accession. The next level is 
+       the data directories for individual assembly versions. Only data 
+       directories for "latest" assemblies are refreshed when annotation is
+       updated or when software updates are released, so new file formats 
+       or improvements to existing formats are not available for 
+       non-latest assemblies.
+    2. `annotation_releases`: contains the products of the NCBI Eukaryotic 
+       Genome Annotation Pipeline (see below). The data are organized first
+       by taxonomy ID and then by annotation release ID. It is expected 
+       that many users will prefer to access the annotation release data 
+       using the paths under the `refseq` directory that use the organism 
+       name (see below). 
+    3. `pilot`: contains annotations produced by NCBI's RefSeq project for 
+       GenBank assemblies that are not incorporated into the main RefSeq 
+       genomes dataset. These data are provided as a pilot project to 
+       explore data models and annotation processes to support annotation 
+       on multiple assemblies for a species. The provided data structure 
+       matches that found under annotation_releases for NCBI EGAP 
+       annotations.
+2. **`genbank`**: content includes primary submissions of assembled genome sequence 
             and associated annotation data, if any, as exchanged among members 
             of the International Nucleotide Sequence Database Collaboration, 
             of which NCBI's GenBank database is a member. The GenBank directory 
@@ -69,7 +66,7 @@ Genome sequence and annotation data is provided in three directories:
             i. vertebrate_mammalian
             j. vertebrate_other
             k. viral
-3) refseq:  content includes assembled genome sequence and RefSeq annotation 
+3. **`refseq`**: content includes assembled genome sequence and RefSeq annotation 
             data. All prokaryotic and eukaryotic RefSeq genomes have annotation. 
             RefSeq annotation data may be calculated by NCBI annotation  
             pipelines or propagated from the GenBank submission. The RefSeq 
@@ -136,6 +133,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/README_assembly_summary.txt
 
 
 # Data provided per assembly
+
 Sequence and other data files provided per assembly are named according to the 
 rule:
 [assembly accession.version]_[assembly name]_[content type].[optional format]
@@ -368,9 +366,8 @@ RNASeq_coverage_graphs directory
         RNA-seq read coverage graphs in UCSC BigWig file format
         (https://genome.ucsc.edu/goldenPath/help/bigWig.html)
 
-=====================================
-Data provided per annotation release:
-=====================================
+# Data provided per annotation release
+
 The annotation_releases directory offers data grouped by organism and specific 
 annotation release (100, 101, etc.) for organisms that have been annotated 
 by the NCBI Eukaryotic Genome Annotation Pipeline. 
@@ -422,9 +419,7 @@ One directory for each genome assembly that was annotated in the release.
    for organisms annotated by the NCBI Eukaryotic Genome Annotation Pipeline".
 
 
-=====================
-Description of files:
-=====================
+# Description of files
 
 Masking of fasta sequences in genomic.fna.gz files
 --------------------------------------------------

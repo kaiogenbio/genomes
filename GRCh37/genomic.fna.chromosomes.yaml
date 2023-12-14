@@ -1,0 +1,75 @@
+- id: J01415.2
+  desc: Homo sapiens mitochondrion, complete genome
+  chr: M
+- id: CM000663.1
+  desc: Homo sapiens chromosome 1, GRCh37 primary reference assembly
+  chr: "1"
+- id: CM000664.1
+  desc: Homo sapiens chromosome 2, GRCh37 primary reference assembly
+  chr: "2"
+- id: CM000665.1
+  desc: Homo sapiens chromosome 3, GRCh37 primary reference assembly
+  chr: "3"
+- id: CM000666.1
+  desc: Homo sapiens chromosome 4, GRCh37 primary reference assembly
+  chr: "4"
+- id: CM000667.1
+  desc: Homo sapiens chromosome 5, GRCh37 primary reference assembly
+  chr: "5"
+- id: CM000668.1
+  desc: Homo sapiens chromosome 6, GRCh37 primary reference assembly
+  chr: "6"
+- id: CM000669.1
+  desc: Homo sapiens chromosome 7, GRCh37 primary reference assembly
+  chr: "7"
+- id: CM000670.1
+  desc: Homo sapiens chromosome 8, GRCh37 primary reference assembly
+  chr: "8"
+- id: CM000671.1
+  desc: Homo sapiens chromosome 9, GRCh37 primary reference assembly
+  chr: "9"
+- id: CM000672.1
+  desc: Homo sapiens chromosome 10, GRCh37 primary reference assembly
+  chr: "10"
+- id: CM000673.1
+  desc: Homo sapiens chromosome 11, GRCh37 primary reference assembly
+  chr: "11"
+- id: CM000674.1
+  desc: Homo sapiens chromosome 12, GRCh37 primary reference assembly
+  chr: "12"
+- id: CM000675.1
+  desc: Homo sapiens chromosome 13, GRCh37 primary reference assembly
+  chr: "13"
+- id: CM000676.1
+  desc: Homo sapiens chromosome 14, GRCh37 primary reference assembly
+  chr: "14"
+- id: CM000677.1
+  desc: Homo sapiens chromosome 15, GRCh37 primary reference assembly
+  chr: "15"
+- id: CM000678.1
+  desc: Homo sapiens chromosome 16, GRCh37 primary reference assembly
+  chr: "16"
+- id: CM000679.1
+  desc: Homo sapiens chromosome 17, GRCh37 primary reference assembly
+  chr: "17"
+- id: CM000680.1
+  desc: Homo sapiens chromosome 18, GRCh37 primary reference assembly
+  chr: "18"
+- id: CM000681.1
+  desc: Homo sapiens chromosome 19, GRCh37 primary reference assembly
+  chr: "19"
+- id: CM000682.1
+  desc: Homo sapiens chromosome 20, GRCh37 primary reference assembly
+  chr: "20"
+- id: CM000683.1
+  desc: Homo sapiens chromosome 21, GRCh37 primary reference assembly
+  chr: "21"
+- id: CM000684.1
+  desc: Homo sapiens chromosome 22, GRCh37 primary reference assembly
+  chr: "22"
+- id: CM000685.1
+  desc: Homo sapiens chromosome X, GRCh37 primary reference assembly
+  chr: X
+- id: CM000686.1
+  desc: Homo sapiens chromosome Y, GRCh37 primary reference assembly
+  chr: Y

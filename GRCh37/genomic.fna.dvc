@@ -1,0 +1,5 @@
+outs:
+- md5: 0813bc995ebeeab441f07733542e7dd0
+  size: 3275299600
+  hash: md5
+  path: genomic.fna

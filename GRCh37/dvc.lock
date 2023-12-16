@@ -1,0 +1,24 @@
+schema: '2.0'
+stages:
+  split:
+    cmd: python split.py --genome ./genomic.fna --chromosomes ./chromosomes.yaml --output-dir
+      ./build/chromosomes
+    deps:
+    - path: chromosomes.yaml
+      hash: md5
+      md5: 978e0efa9a9884ba53fa957d498ae8d3
+      size: 2426
+    - path: genomic.fna
+      hash: md5
+      md5: 0813bc995ebeeab441f07733542e7dd0
+      size: 3275299600
+    - path: split.py
+      hash: md5
+      md5: 52c7f3c19e57fc7c704850e646527f70
+      size: 1314
+    outs:
+    - path: build/chromosomes
+      hash: md5
+      md5: 5874cfa4d9bc6f3f063cedecbbcbc8ee.dir
+      size: 3147290712
+      nfiles: 25

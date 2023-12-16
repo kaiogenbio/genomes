@@ -1,0 +1,11 @@
+stages:
+  # splits genomic.fna into separate chromosomes
+  split: 
+    cmd: python split.py --genome ./genomic.fna --chromosomes ./chromosomes.yaml --output-dir ./build/chromosomes
+    deps:
+      - genomic.fna
+      - chromosomes.yaml
+      - split.py
+    outs:
+      - build/chromosomes
+

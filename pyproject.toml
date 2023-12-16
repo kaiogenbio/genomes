@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pygenomes"
+version = "0.1.0"
+description = ""
+authors = ["Matthew Feng <mattfeng@mit.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+biopython = "^1.81"
+PyYAML = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
